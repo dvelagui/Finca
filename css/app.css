@@ -1,0 +1,491 @@
+@font-face {
+  font-family: "Lost";
+  src: url("../fonts/Lost.ttf");
+}
+
+@font-face {
+  font-family: "Althea";
+  src: url("../fonts/Althea.ttf");
+}
+
+body .background-buganvilla {
+  /* background-image: url("../images/backRight.png");
+  background-repeat: no-repeat; */
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#sleft {
+  display: inline-flex;
+  position: fixed;
+  align-items: flex-end;
+  padding: 5px 5px;
+  top: 90%;
+  height: auto;
+  opacity: 0.9;
+  margin: 0 1px;
+  z-index: 99;
+  transition: opacity: 1 300ms;
+}
+
+#sleft a:hover {
+  opacity: 0.5;
+}
+
+a img {
+  margin-right: 5px;
+}
+
+/* .column {
+  border: 1px solid blue;
+}
+
+.row {
+  border: 1px solid red;
+} */
+
+#logo-container .column {
+  margin-top: 10px;
+  border-bottom: 2px solid rgba(196, 192, 193, 0.77);
+}
+
+.container {
+  max-width: 1000px;
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+}
+
+#social-container .c2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* .menu-container {
+  align-items: bottom;
+} */
+
+.menu li a {
+  color: #f513a5;
+  font-family: "Althea";
+  font-size: 25px;
+}
+
+#orbit-container img {
+  width: 100%;
+  height: 100%;
+  margin-top: -135px;
+}
+
+.menu .submenu-container li a:hover {
+  color: #2ba6cb;
+}
+
+.submenu-container {
+  border: 0;
+  list-style-type: none;
+}
+
+element.style {
+  margin-top: 0;
+}
+
+#scrollSticky a:hover {
+  color: #2ba6cb;
+}
+
+#button-action {
+  position: fixed;
+  border: 1px solid rgba(255, 254, 254, 0.8);
+  padding: 21px;
+  color: #f513a5;
+  font-family: "Althea";
+  font-size: 25px;
+  z-index: 4;
+  background-color: rgba(255, 254, 254, 0.8);
+  font-weight: 600;
+  margin-left: 30px;
+  transition: 1s;
+}
+
+.orbit-slide {
+  height: 650px;
+}
+
+#orbit-container figcaption {
+  font-size: 30px;
+}
+
+/* .orbit {
+  margin-top: 10px;
+} */
+
+#buganvilla {
+  margin-top: 10px;
+  border-top: 2px solid rgba(196, 192, 193, 0.77);
+  padding-top: 10px;
+}
+
+#buganvilla h1 {
+  font-size: 40px;
+}
+
+#buganvilla h2 {
+  margin-top: 20px;
+  color: #484848;
+  font-size: 20px;
+  font-family: "Althea";
+  text-align: justify;
+}
+
+#buganvilla .location iframe {
+  width: 100%;
+}
+
+.data-sticky {
+  width: 200%;
+  background-color: rgba(255, 254, 254, 0.8);
+  z-index: 2;
+}
+
+#room h1, #experiencias h1, #restaurantes h1, #formulario h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  border-top: 2px solid rgba(196, 192, 193, 0.77);
+  padding-top: 10px;
+}
+
+#room .subtitle {
+  margin-top: 40px;
+  padding-left: -10px;
+}
+
+#room .title-room {
+  background-color: rgba(172, 169, 169, 0.5);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  padding: 0px 5px;
+  text-shadow: 2px;
+}
+
+#room .price-room {
+  color: #484848;
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-shadow: 2px;
+  margin-top: 20px;
+}
+
+#room .terms {
+  font-size: 12px;
+}
+
+#room ul li {
+  font-size: 18px;
+  list-style-type: none;
+  padding: 0 20px 20px 0;
+  color: #484848;
+  font-size: 18px;
+  text-shadow: 2px;
+}
+
+#room .services {
+  margin-top: 32px;
+}
+
+#bedrooms .tabs-container {
+  margin: 0 auto;
+}
+
+#bedrooms {
+  margin-top: 10px;
+}
+
+#bedrooms .tabs-title {
+  display: inline-block;
+  justify-content: space-between;
+  float: none;
+}
+
+#bedrooms ul .is-active a {
+  color: #258faf;
+}
+
+#bedrooms a {
+  color: #f513a5;
+  font-family: "Althea";
+  font-size: 20px;
+}
+
+#bedrooms a:hover {
+  color: #2ba6cb;
+}
+
+#bedrooms .orbit-container {
+  height: 350px;
+  width: 350px;
+}
+
+#bedrooms .rooms-content img {
+  width: auto;
+  height: auto;
+}
+
+/* #bedrooms img {
+  height: 100%;
+  width: 100%;
+} */
+
+#bedrooms .text {
+  text-align: center;
+}
+
+#bedrooms h3 {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.tabs, .tabs-content {
+  border: none;
+}
+
+/* EXPERIENCIAS */
+
+#img-salon {
+  width: 300px;
+  height: 500px;
+  /*sólo para ejemplo*/
+  background-image: url("../images/salon.jpg");
+  background-repeat: no-repeat;
+}
+
+#img-camping {
+  width: 300px;
+  height: 500px;
+  /*sólo para ejemplo*/
+  background-image: url("../images/camping.jpg");
+  background-repeat: no-repeat;
+}
+
+#img-chimenea {
+  width: 300px;
+  /*sólo para ejemplo*/
+  background-image: url("../images/chimenea.jpg");
+  background-repeat: no-repeat;
+}
+
+#img-diversion {
+  width: 300px;
+  /*sólo para ejemplo*/
+  background-image: url("../images/diversion.jpg");
+  background-repeat: no-repeat;
+}
+
+#experiencias img {
+  width: 100%;
+  height: 100%;
+}
+
+#info {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin: auto 0;
+}
+
+#img-salon:hover #info {
+  opacity: 1;
+}
+
+#img-camping:hover #info {
+  opacity: 1;
+}
+
+#img-chimenea:hover #info {
+  opacity: 1;
+}
+
+#img-diversion:hover #info {
+  opacity: 1;
+}
+
+#headline {
+  color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -75px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+}
+
+#img-salon:hover #headline {
+  margin-left: 75px;
+}
+
+#img-camping:hover #headline {
+  margin-left: 105px;
+}
+
+#img-chimenea:hover #headline {
+  margin-left: 105px;
+}
+
+#img-diversion:hover #headline {
+  margin-left: 105px;
+}
+
+#descripcion {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  transition: margin-top 0.4s;
+  padding: 10px;
+}
+
+#img-salon:hover #descripcion {
+  margin-top: 85px;
+}
+
+#img-camping:hover #descripcion {
+  margin-top: 85px;
+}
+
+#img-chimenea:hover #descripcion {
+  margin-top: 85px;
+}
+
+#img-diversion:hover #descripcion {
+  margin-top: 85px;
+}
+
+#title-p {
+  color: white;
+  font-size: 20px;
+  margin: -50px auto 0 auto;
+  background-color: rgba(31, 31, 31, 0.9);
+  padding: 10px;
+}
+
+/* EXPERIENCIAS */
+
+#experiencias .row {
+  margin-top: 10px;
+}
+
+#experiencias .info {
+  background-color: rgb(233, 230, 230);
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.75);
+  margin: auto 10px;
+}
+
+#restaurantes h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info-restaurantes p {
+  font-size: 14px;
+  font-style: italic;
+  margin: 0;
+}
+
+#restaurantes .column {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+#restaurantes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#restaurantes .info-restaurantes {
+  margin: auto 10px;
+}
+
+#restaurantes .tipo-comida p {
+  margin-bottom: 2px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#restaurantes .tipo-comida ul {
+  margin-bottom: 0;
+}
+
+#restaurantes .tipo-comida li {
+  font-size: 13px;
+  font-style: italic;
+}
+
+#formulario li {
+  list-style-type: none;
+}
+
+.footer {
+  background-color: rgb(205, 208, 219);
+  border: 1px solid grey;
+  height: 50px;
+}
+
+@media screen and (max-width: 1015px) {
+  .menu li a {
+    font-size: 20px;
+  }
+  #button-action {
+    padding: 15px;
+    font-size: 20px;
+  }
+  #restaurantes img {
+    padding: 45px 0;
+  }
+  #orbit-container img {
+    margin-top: 0;
+  }
+  .orbit-slide {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #logo-container .img {
+    margin: 0 auto;
+  }
+  #button-action {
+    padding: 15px;
+    font-size: 20px;
+  }
+  #offCanvas {
+    color: white;
+    z-index: 99;
+  }
+  #menu li a {
+    text-transform: uppercase;
+  }
+  .menu li a {
+    background-color: rgba(255, 254, 254, 0.8);
+  }
+  .menu li a:hover {
+    color: #2ba6cb;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .orbit-slide {
+    height: 300px;
+  }
+  #orbit-container figcaption {
+    font-size: 20px;
+  }
+}
